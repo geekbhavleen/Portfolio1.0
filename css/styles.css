@@ -1,0 +1,126 @@
+body {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  text-align: center;
+  background-color: #e8ffe8;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
+  font-size: 4em;
+  margin: 0;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+}
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #84a9ac;
+  border-width: 5px;
+  width: 5%;
+}
+
+.profile {
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.top-container {
+  background-color: #e8ffe8;
+  padding-top: 100px;
+}
+
+.top-container span {
+  text-decoration: underline;
+}
+
+.mountain {
+  margin-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  right: 300px;
+  top: 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 170px;
+  bottom: 300px;
+  height: 100px;
+  width: 200px;
+}
+
+div img {
+  margin: 0 10px;
+}
+
+.middle-container p {
+  line-height: 2;
+}
+
+.skill-section {
+  margin: 50px auto;
+}
+
+.working-avatar-div {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.working-avatar {
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+  width: 20%;
+}
+
+.team-work-div {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.team-work {
+  float: right;
+  width: 20%;
+}
+
+.break-time-div {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.break-time-avatar {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.cricket-div {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.cricket-avatar {
+  float: right;
+  width: 25%;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
