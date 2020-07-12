@@ -1,70 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="shortcut icon" href="images/india.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+  <title>Bhavleen Singh</title>
+
+  <!-- Bootstrap CDN -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500&family=Sacramento&display=swap"
     rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/73eb1e4d9d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Title Icon -->
+  <link rel="shortcut icon" href="images/india.ico" type="image/x-icon">
+
 </head>
+
 <body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloudpng.png" alt="cloud-img">
+
+  <div id="home">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
     <h1>I'm Bhavleen Singh.</h1>
-    <h2>A <span>Pro</span>grammer</h2>
-    <img class="bottom-cloud" src="images/cloudpng.png" alt="cloud-img">
+    <h2>Not just A Programmer</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
     <img class="mountain" src="http://seanhalpin.io/assets/img/content/home/masthead/land.svg" alt="mountain-img">
   </div>
 
-  <div class="middle-container">
+  <div id="about" class="main-body">
     <img class="profile" src="images/me.jpeg" alt="profile">
     <h2>Hello.</h2>
-    <p>I'm a new age Javascript Developer, known for writing clean and refactored code.<br>I have a passion for web development.<br>Love to create responsive web design</p>
-    <hr>
+    <p>I'm a new age Javascript Developer, known for writing clean and refactored code.<br>I have a passion for web
+      development.<br>Love to create responsive web design.</p>
+  </div>
+
+  <div id="skills" class="main-body">
     <h2>My Skills.</h2>
-    <div class="skill-section">
-      <img src="images/nodejs.png" alt="nodejs-pic" width="200px">
-      <img src="images/express.jpg" alt="express-pic" width="200px" style="padding-bottom:70px">
-      <img src="images/mongoBG.png" alt="mongo-pic" width="200px">
-      <img src="images/postgresBG.png" alt="postgresql-pic" width="200px">
-      <img src="images/reactBG.png" alt="reactjs-pic" width="200px" style="border-radius:100%">
-    </div>
-    <hr>
+    <img src="images/nodejs.png" alt="nodejs-pic" width="200px">
+    <img src="images/express.jpg" alt="express-pic" width="200px" style="padding-bottom:70px">
+    <img src="images/mongoBG.png" alt="mongo-pic" width="200px">
+    <img src="images/postgresBG.png" alt="postgresql-pic" width="200px">
+    <img src="images/reactBG.png" alt="reactjs-pic" width="200px" style="border-radius:100%">
+  </div>
 
+  <div id="comfort-zone" class="main-body">
     <h2>My comfort zone.</h2>
-    <div class="working-avatar-div">
-      <img class="working-avatar" src="images/work-from-home.png" alt="my-working-avatar">
+
+    <div class="my-zone-div">
+      <img class="avatar-I" src="images/work-from-home.png" alt="my-working-avatar">
       <h3>Love to work remotely</h3>
-      <p>In this 2020 era, I realized one thing that working remotely is more productive and fun.<br>We just need a working internet connection and a laptop to work.</p>
+      <p>In this 2020 era, I realized that working remotely is more productive and fun.<br>We just need a
+        working internet connection and a laptop to work.</p>
     </div>
-    <hr>
 
-    <div class="team-work-div">
-      <img class="team-work" src="images/team-work-removebg.png" alt="team-work-avatar">
+    <div class="my-zone-div">
+      <img class="avatar-II" src="images/team-work-removebg.png" alt="team-work-avatar">
       <h3>Believes in teamwork</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo numquam nemo minus minima eligendi id quae quam, repellat optio tempora in tenetur enim rem eaque dolorum excepturi repellendus voluptatibus vero.</p>
+      <p>I strongly believe that individually I can conquer many things but while working with a group of people, when
+        multiples
+        brilliant minds work together than productivity increases gradually.</p>
     </div>
-    <hr>
 
-    <div class="break-time-div">
-      <img class="break-time-avatar" src="images/coffee-timeBG.png" alt="break-time-avatar">
+    <div class="my-zone-div">
+      <img class="avatar-I" src="images/coffee-timeBG.png" alt="break-time-avatar">
       <h3>Coffee breaks are a lifesaver.</h3>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At adipisci accusamus nihil nisi temporibus cum repellendus omnis. Et voluptatibus voluptatum molestiae exercitationem, odio eum aut qui, dolores placeat ea harum?</p>
+      <p>In many scenarios, I discover that when I stuck somewhere I require a little break to refresh my mind and a
+        break with a
+        cup of coffee is a game-changer for me. And study proves that <em>caffeine is a drug that makes you better at
+          executing your</em>.
+        ideas.</p>
     </div>
-    <hr>
+  </div>
 
-    <div class="cricket-div">
-      <img class="cricket-avatar" src="images/cricketBG.png" alt="cricket-avatar">
-      <h3>Weekends Activities</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil mollitia, architecto corporis vero dignissimos porro facilis sequi dolores veniam neque eius aliquam obcaecati repellendus necessitatibus voluptatibus consequuntur quo aspernatur molestiae?</p>
-    </div>
-    
+  <div id="contact-me" class="main-body">
+    <h2>Get In Touch</h2>
+    <p>If you require any sort of help regarding web design and web development or <br> if you want to modify your
+      website in modern javascript. <br> I'm just a click away. <br> Let's talk about modern techniques embedded in
+      javascript. </p>
+    <a href="mailto:singhbhavleen3@gmail.com">CONTACT ME</a>
   </div>
 
   <footer>
-    <p>&copy; 2020 - All rights Reserved</p>
-  </footer>  
+    <a href="https://www.linkedin.com/in/bhavleen-singh-64801b114/"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/attainu/bhavleen-singh-au7"><i class="fab fa-github"></i></a>
+    <a href="https://www.instagram.com/cleverrsingh/"><i class="fab fa-instagram"></i></a>
+    <p>&copy; 2020 Bhavleen Singh. All rights Reserved</p>
+  </footer>
 </body>
+
 </html>
